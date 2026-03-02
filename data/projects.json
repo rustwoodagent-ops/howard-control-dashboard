@@ -40,10 +40,10 @@
       "name": "Workforce Skill Rollout",
       "ownerAgent": "Workforce Coordinator",
       "domain": "Agent Orchestration",
-      "status": "at-risk",
-      "progress": 35,
-      "summary": "Define and integrate department skill packs and role routing.",
-      "updatedAt": "2026-03-02T02:20:00Z"
+      "status": "on-track",
+      "progress": 100,
+      "summary": "Role matrix, routing policy, governance, validation suite, and templates codified.",
+      "updatedAt": "2026-03-02T03:30:00Z"
     }
   ]
 }

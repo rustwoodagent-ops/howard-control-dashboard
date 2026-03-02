@@ -1,0 +1,80 @@
+{
+  "version": "2.0.0",
+  "id": "HOWARD_WORKFORCE_ROUTING_V2",
+  "domainPrimaryRoleMap": {
+    "ui-engineering": "ROLE_WEB_ARCHITECT",
+    "frontend": "ROLE_WEB_ARCHITECT",
+    "automation": "ROLE_AUTOMATION_ENGINEER",
+    "system-integration": "ROLE_AUTOMATION_ENGINEER",
+    "model-strategy": "ROLE_AI_MODEL_SPECIALIST",
+    "communications": "ROLE_SECRETARY",
+    "scheduling": "ROLE_SECRETARY",
+    "project-planning": "ROLE_PROJECT_ARCHITECT",
+    "audit": "ROLE_SYSTEM_AUDITOR",
+    "creative-writing": "ROLE_RUSTWOOD_CREATIVE",
+    "vocal-coaching": "ROLE_VOCAL_PEDAGOGY",
+    "marketing-copy": "ROLE_MARKETING_COPY",
+    "business-strategy": "ROLE_BUSINESS_STRATEGIST",
+    "performance-optimisation": "ROLE_PERFORMANCE_COACH"
+  },
+  "multiDomainChains": [
+    {
+      "chainId": "chain-web-release",
+      "domains": [
+        "ui-engineering",
+        "automation",
+        "audit"
+      ],
+      "roles": [
+        "ROLE_WEB_ARCHITECT",
+        "ROLE_AUTOMATION_ENGINEER",
+        "ROLE_SYSTEM_AUDITOR"
+      ]
+    },
+    {
+      "chainId": "chain-product-strategy",
+      "domains": [
+        "project-planning",
+        "business-strategy",
+        "marketing-copy",
+        "audit"
+      ],
+      "roles": [
+        "ROLE_PROJECT_ARCHITECT",
+        "ROLE_BUSINESS_STRATEGIST",
+        "ROLE_MARKETING_COPY",
+        "ROLE_SYSTEM_AUDITOR"
+      ]
+    },
+    {
+      "chainId": "chain-creative-production",
+      "domains": [
+        "creative-writing",
+        "vocal-coaching",
+        "marketing-copy"
+      ],
+      "roles": [
+        "ROLE_RUSTWOOD_CREATIVE",
+        "ROLE_VOCAL_PEDAGOGY",
+        "ROLE_MARKETING_COPY"
+      ]
+    }
+  ],
+  "unclearDomainRule": {
+    "action": "ask-clarification-before-activation",
+    "messageTemplate": "Domain unclear. Please clarify objective scope before agent activation."
+  },
+  "activationAnnouncement": {
+    "required": true,
+    "format": [
+      "Activating Agent: <RoleName>",
+      "Department: <DepartmentName>",
+      "Objective: <ShortObjectiveSummary>"
+    ]
+  },
+  "auditorAutoTrigger": {
+    "highRisk": true,
+    "complexTasks": true,
+    "role": "ROLE_SYSTEM_AUDITOR"
+  }
+}

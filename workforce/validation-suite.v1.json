@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "id": "HOWARD_WORKFORCE_VALIDATION_SUITE_V1",
+  "purpose": "Validate runtime routing and governance behavior across workforce domains.",
+  "tests": [
+    {
+      "id": "T-001",
+      "assignment": "Design static landing page",
+      "domains": [
+        "ui-engineering"
+      ],
+      "expectedRoles": [
+        "ROLE_WEB_ARCHITECT"
+      ]
+    },
+    {
+      "id": "T-002",
+      "assignment": "Create webhook automation flow",
+      "domains": [
+        "automation"
+      ],
+      "expectedRoles": [
+        "ROLE_AUTOMATION_ENGINEER"
+      ]
+    },
+    {
+      "id": "T-003",
+      "assignment": "Choose best model for coding heavy task",
+      "domains": [
+        "model-strategy"
+      ],
+      "expectedRoles": [
+        "ROLE_AI_MODEL_SPECIALIST"
+      ]
+    },
+    {
+      "id": "T-004",
+      "assignment": "Draft executive scheduling email",
+      "domains": [
+        "communications",
+        "scheduling"
+      ],
+      "expectedRoles": [
+        "ROLE_SECRETARY"
+      ]
+    },
+    {
+      "id": "T-005",
+      "assignment": "Plan 90-day delivery roadmap",
+      "domains": [
+        "project-planning"
+      ],
+      "expectedRoles": [
+        "ROLE_PROJECT_ARCHITECT"
+      ]
+    },
+    {
+      "id": "T-006",
+      "assignment": "Audit deployment plan for risk",
+      "domains": [
+        "audit"
+      ],
+      "expectedRoles": [
+        "ROLE_SYSTEM_AUDITOR"
+      ]
+    },
+    {
+      "id": "T-007",
+      "assignment": "Write brand narrative and lyrics",
+      "domains": [
+        "creative-writing"
+      ],
+      "expectedRoles": [
+        "ROLE_RUSTWOOD_CREATIVE"
+      ]
+    },
+    {
+      "id": "T-008",
+      "assignment": "Design vocal grit training protocol",
+      "domains": [
+        "vocal-coaching"
+      ],
+      "expectedRoles": [
+        "ROLE_VOCAL_PEDAGOGY"
+      ]
+    },
+    {
+      "id": "T-009",
+      "assignment": "Create conversion landing copy",
+      "domains": [
+        "marketing-copy"
+      ],
+      "expectedRoles": [
+        "ROLE_MARKETING_COPY"
+      ]
+    },
+    {
+      "id": "T-010",
+      "assignment": "Build go-to-market offer ladder",
+      "domains": [
+        "business-strategy",
+        "marketing-copy"
+      ],
+      "expectedRoles": [
+        "ROLE_BUSINESS_STRATEGIST",
+        "ROLE_MARKETING_COPY"
+      ]
+    }
+  ]
+}
