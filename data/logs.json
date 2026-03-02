@@ -1,0 +1,37 @@
+{
+  "$schema": "howard.v1.logs",
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "description": "Execution log stream for dashboard monitoring.",
+    "fields": {
+      "id": "string",
+      "timestamp": "ISO-8601 datetime",
+      "level": "INFO | WARN | ERROR",
+      "source": "string",
+      "message": "string"
+    }
+  },
+  "data": [
+    {
+      "id": "LOG-9001",
+      "timestamp": "2026-03-02T02:26:05Z",
+      "level": "INFO",
+      "source": "DashboardLoader",
+      "message": "JSON panels loaded successfully"
+    },
+    {
+      "id": "LOG-9002",
+      "timestamp": "2026-03-02T02:24:59Z",
+      "level": "WARN",
+      "source": "ComplianceCheck",
+      "message": "Previous OAuth verification attempt failed before policy patch"
+    },
+    {
+      "id": "LOG-9003",
+      "timestamp": "2026-03-02T02:22:08Z",
+      "level": "INFO",
+      "source": "OAuthFlow",
+      "message": "Token exchange completed with refreshed client credentials"
+    }
+  ]
+}

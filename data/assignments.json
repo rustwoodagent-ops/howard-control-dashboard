@@ -1,0 +1,49 @@
+{
+  "$schema": "howard.v1.assignments",
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "description": "Workforce assignment queue for command dispatching.",
+    "fields": {
+      "id": "string",
+      "title": "string",
+      "priority": "low | medium | high | critical",
+      "status": "queued | active | blocked | completed",
+      "assignedTo": "string[]",
+      "domain": "string",
+      "objective": "string",
+      "createdAt": "ISO-8601 datetime"
+    }
+  },
+  "data": [
+    {
+      "id": "ASN-001",
+      "title": "Implement workforce skill integration matrix",
+      "priority": "high",
+      "status": "queued",
+      "assignedTo": ["Workforce Coordinator", "Systems Architect"],
+      "domain": "Agent Orchestration",
+      "objective": "Define role-based skill packs and execution boundaries.",
+      "createdAt": "2026-03-02T02:27:00Z"
+    },
+    {
+      "id": "ASN-002",
+      "title": "Deploy dashboard to private GitHub Pages",
+      "priority": "medium",
+      "status": "queued",
+      "assignedTo": ["Frontend Architect", "System Auditor"],
+      "domain": "Deployment",
+      "objective": "Publish static dashboard and validate data loading in production path.",
+      "createdAt": "2026-03-02T02:27:30Z"
+    },
+    {
+      "id": "ASN-003",
+      "title": "Audit OAuth policy and scope configuration",
+      "priority": "high",
+      "status": "active",
+      "assignedTo": ["Integration Operator", "System Auditor"],
+      "domain": "Security & Compliance",
+      "objective": "Ensure consent screen alignment and tester access continuity.",
+      "createdAt": "2026-03-02T02:28:00Z"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "howard.v1.projects",
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "description": "Active project inventory for Howard Control Dashboard.",
+    "fields": {
+      "id": "string",
+      "name": "string",
+      "ownerAgent": "string",
+      "domain": "string",
+      "status": "on-track | at-risk | blocked | archived",
+      "progress": "number 0-100",
+      "summary": "string",
+      "updatedAt": "ISO-8601 datetime"
+    }
+  },
+  "data": [
+    {
+      "id": "PRJ-001",
+      "name": "Howard Dashboard Deployment",
+      "ownerAgent": "Frontend Architect",
+      "domain": "UI Engineering",
+      "status": "on-track",
+      "progress": 72,
+      "summary": "Build and deploy static control dashboard to private GitHub Pages.",
+      "updatedAt": "2026-03-02T02:10:00Z"
+    },
+    {
+      "id": "PRJ-002",
+      "name": "Google Workspace Automation",
+      "ownerAgent": "Integration Operator",
+      "domain": "Automation",
+      "status": "on-track",
+      "progress": 88,
+      "summary": "OAuth connected for Gmail, Calendar, Drive, Docs, Sheets, Slides.",
+      "updatedAt": "2026-03-02T02:15:00Z"
+    },
+    {
+      "id": "PRJ-003",
+      "name": "Workforce Skill Rollout",
+      "ownerAgent": "Workforce Coordinator",
+      "domain": "Agent Orchestration",
+      "status": "at-risk",
+      "progress": 35,
+      "summary": "Define and integrate department skill packs and role routing.",
+      "updatedAt": "2026-03-02T02:20:00Z"
+    }
+  ]
+}

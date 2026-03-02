@@ -1,0 +1,37 @@
+{
+  "$schema": "howard.v1.activity",
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "description": "Agent activity stream for operational visibility.",
+    "fields": {
+      "id": "string",
+      "timestamp": "ISO-8601 datetime",
+      "agent": "string",
+      "action": "string",
+      "context": "string"
+    }
+  },
+  "data": [
+    {
+      "id": "ACT-1001",
+      "timestamp": "2026-03-02T02:25:00Z",
+      "agent": "System Auditor",
+      "action": "Validated OAuth integration outputs",
+      "context": "Google Workspace verification"
+    },
+    {
+      "id": "ACT-1002",
+      "timestamp": "2026-03-02T02:23:10Z",
+      "agent": "Frontend Architect",
+      "action": "Patched privacy policy and homepage compliance content",
+      "context": "OAuth consent screen requirements"
+    },
+    {
+      "id": "ACT-1003",
+      "timestamp": "2026-03-02T02:21:44Z",
+      "agent": "Integration Operator",
+      "action": "Generated OAuth auth URL and exchanged auth code",
+      "context": "Google client setup"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "howard.v1.milestones",
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "description": "Milestone tracking for projects.",
+    "fields": {
+      "id": "string",
+      "projectId": "string",
+      "title": "string",
+      "dueDate": "YYYY-MM-DD",
+      "completed": "boolean",
+      "ownerAgent": "string"
+    }
+  },
+  "data": [
+    {
+      "id": "MS-001",
+      "projectId": "PRJ-001",
+      "title": "Static dashboard scaffolding complete",
+      "dueDate": "2026-03-03",
+      "completed": true,
+      "ownerAgent": "Frontend Architect"
+    },
+    {
+      "id": "MS-002",
+      "projectId": "PRJ-001",
+      "title": "GitHub Pages deployment validation",
+      "dueDate": "2026-03-03",
+      "completed": false,
+      "ownerAgent": "System Auditor"
+    },
+    {
+      "id": "MS-003",
+      "projectId": "PRJ-003",
+      "title": "Workforce role matrix finalized",
+      "dueDate": "2026-03-04",
+      "completed": false,
+      "ownerAgent": "Workforce Coordinator"
+    }
+  ]
+}
