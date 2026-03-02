@@ -26,7 +26,7 @@
       "projectId": "PRJ-001",
       "title": "GitHub Pages deployment validation",
       "dueDate": "2026-03-03",
-      "completed": false,
+      "completed": true,
       "ownerAgent": "System Auditor"
     },
     {
