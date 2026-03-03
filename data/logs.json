@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-9903",
+      "timestamp": "2026-03-03T08:00:00Z",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Daily 6pm refresh applied; operational data heartbeat appended and state files republished."
+    },
+    {
       "id": "LOG-9901",
       "timestamp": "2026-03-02T03:30:10Z",
       "level": "INFO",

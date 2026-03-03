@@ -23,7 +23,7 @@
       "status": "on-track",
       "progress": 100,
       "summary": "Static dashboard built and deployed to GitHub Pages with successful validation.",
-      "updatedAt": "2026-03-02T02:10:00Z"
+      "updatedAt": "2026-03-03T08:00:00Z"
     },
     {
       "id": "PRJ-002",
@@ -33,7 +33,7 @@
       "status": "on-track",
       "progress": 88,
       "summary": "OAuth connected for Gmail, Calendar, Drive, Docs, Sheets, Slides.",
-      "updatedAt": "2026-03-02T02:15:00Z"
+      "updatedAt": "2026-03-03T08:00:00Z"
     },
     {
       "id": "PRJ-003",
@@ -43,7 +43,7 @@
       "status": "on-track",
       "progress": 100,
       "summary": "Role matrix, routing policy, governance, validation suite, and templates codified.",
-      "updatedAt": "2026-03-02T03:30:00Z"
+      "updatedAt": "2026-03-03T08:00:00Z"
     }
   ]
 }
