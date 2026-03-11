@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-9911",
+      "timestamp": "2026-03-11T08:00:00Z",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Daily 6pm refresh run completed; heartbeat activity and evidence log appended before publish."
+    },
+    {
       "id": "LOG-9910",
       "timestamp": "2026-03-10T08:00:00Z",
       "level": "INFO",
