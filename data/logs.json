@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-9930",
+      "timestamp": "2026-04-01T08:21:37+10:00",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Daily 6pm refresh run executed; repo pull was current and no grounded state deltas were found, so heartbeat activity and evidence log were appended."
+    },
+    {
       "id": "LOG-9929",
       "timestamp": "2026-03-29T08:00:00Z",
       "level": "INFO",
