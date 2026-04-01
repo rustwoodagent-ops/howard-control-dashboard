@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-9931",
+      "timestamp": "2026-04-01T08:00:00Z",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Verified daily 6pm refresh executed against current main; no grounded state deltas were found, so heartbeat activity and evidence log were appended."
+    },
+    {
       "id": "LOG-9930",
       "timestamp": "2026-04-01T08:21:37+10:00",
       "level": "INFO",
