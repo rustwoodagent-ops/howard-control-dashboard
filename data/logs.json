@@ -20,13 +20,6 @@
       "message": "Fetched current origin/main for the daily 6pm refresh at 18:00 Australia/Brisbane, confirmed it was already up to date, and appended the grounded note that today's skill health check still flagged daily-joke workflows for manual review even though durable memory says Aaron requested that skill/pipeline remain removed unless he approves resurfacing it."
     },
     {
-      "id": "LOG-9945",
-      "timestamp": "2026-04-15T08:00:00Z",
-      "level": "INFO",
-      "source": "DashboardRefreshCron",
-      "message": "Fetched current origin/main for the daily 6pm refresh at 18:00 Australia/Brisbane, verified the latest skill health check still flagged legacy daily-joke workflows for manual review, then appended the heartbeat activity and evidence log for republish."
-    },
-    {
       "id": "LOG-9944",
       "timestamp": "2026-04-14T08:00:00Z",
       "level": "INFO",
