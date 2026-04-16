@@ -22,8 +22,8 @@
       "domain": "UI Engineering",
       "status": "on-track",
       "progress": 100,
-      "summary": "Static dashboard remains deployed; today's 6pm refresh confirmed origin/main was already current and captured the grounded operator note that daily-joke workflows are still appearing in manual-review health checks even though durable memory says that skill/pipeline should remain removed unless Aaron approves otherwise.",
-      "updatedAt": "2026-04-15T08:00:00Z"
+      "summary": "Static dashboard remains deployed; today's 6pm refresh confirmed origin/main was already current and recorded the grounded operator finding that OpenClaw update/restart continuity is not failing at Telegram DM session reattach, with the stronger traced risk now sitting in the post-restart model and fallback chain.",
+      "updatedAt": "2026-04-16T08:00:00Z"
     },
     {
       "id": "PRJ-002",
