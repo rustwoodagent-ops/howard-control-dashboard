@@ -22,8 +22,8 @@
       "domain": "UI Engineering",
       "status": "on-track",
       "progress": 100,
-      "summary": "Static dashboard remains deployed; today's 6pm refresh recorded grounded operator evidence from 2026-04-16, including the VOX-LOCAL desktop UI refit, packaged pipeline hardening, packaged job 20260416-005958-7ed5f649 validated on Play That Funky Music with 6 passed tests, and the current stronger restart risk sitting in post-restart model/fallback handling rather than Telegram DM session reattach.",
-      "updatedAt": "2026-04-17T08:01:53Z"
+      "summary": "Static dashboard remains deployed; today's 6pm refresh confirmed origin/main was already current and recorded the latest grounded operator state from local memory: VOX-LOCAL shipped desktop UI and packaged pipeline hardening, plus a verified packaged run on Play That Funky Music.",
+      "updatedAt": "2026-04-17T08:00:00Z"
     },
     {
       "id": "PRJ-002",
