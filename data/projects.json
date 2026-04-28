@@ -22,8 +22,8 @@
       "domain": "UI Engineering",
       "status": "on-track",
       "progress": 100,
-      "summary": "Static dashboard remains deployed; the 2026-04-27 6pm refresh confirmed origin/main was already current, found no grounded operational state deltas in tracked dashboard data, and appended the required heartbeat activity and evidence log before republish.",
-      "updatedAt": "2026-04-27T08:00:00Z"
+      "summary": "Static dashboard remains deployed; the 2026-04-28 6pm refresh confirmed origin/main was already current, appended the required heartbeat activity and evidence log, and recorded grounded operator state that Unsloth Studio stays on the radar but outside the production spine while lane-ownership context was restored across routed workspaces.",
+      "updatedAt": "2026-04-28T08:12:17Z"
     },
     {
       "id": "PRJ-002",
