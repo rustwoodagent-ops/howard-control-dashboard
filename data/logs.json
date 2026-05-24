@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-9970",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Fetched current origin/main for the daily 6pm refresh at 18:00 Australia/Brisbane on 2026-05-24, confirmed it was already up to date, updated the dashboard project heartbeat, then appended the heartbeat activity and evidence log for republish.",
+      "timestamp": "2026-05-24T08:00:00Z"
+    },
+    {
       "id": "LOG-9969",
       "level": "INFO",
       "source": "DashboardRefreshCron",
