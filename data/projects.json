@@ -22,8 +22,8 @@
       "domain": "UI Engineering",
       "status": "blocked",
       "progress": 100,
-      "summary": "Daily 6pm refresh for 2026-05-28 pulled latest main, preserved operational JSON schemas, and recorded the current heartbeat; publication remains dependent on restoring non-interactive GitHub write credentials because the repo is already ahead of origin from previous refresh commits.",
-      "updatedAt": "2026-05-28T08:00:00Z"
+      "summary": "Daily 6pm refresh for 2026-05-29 pulled latest main, preserved operational JSON schemas, and recorded the current heartbeat; publication remains dependent on restoring non-interactive GitHub write credentials because the repo is already ahead of origin from previous refresh commits.",
+      "updatedAt": "2026-05-29T08:00:00Z"
     },
     {
       "id": "PRJ-002",
