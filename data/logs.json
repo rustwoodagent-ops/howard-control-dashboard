@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-9978",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Daily 6pm refresh for 2026-06-01 fetched origin/main, confirmed the local branch was current, updated operational dashboard data, and queued publish verification.",
+      "timestamp": "2026-06-01T08:00:00Z"
+    },
+    {
       "id": "LOG-9977",
       "level": "INFO",
       "source": "DashboardRefreshCron",
