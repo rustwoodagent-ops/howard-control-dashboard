@@ -20,10 +20,10 @@
       "name": "Howard Dashboard Deployment",
       "ownerAgent": "Frontend Architect",
       "domain": "UI Engineering",
-      "status": "blocked",
+      "status": "on-track",
       "progress": 100,
-      "summary": "Daily 6pm refresh for 2026-06-03 fetched origin/main, preserved operational JSON schemas, and recorded the current heartbeat; publication still depends on restoring non-interactive GitHub write credentials because local refresh commits remain ahead of origin.",
-      "updatedAt": "2026-06-03T08:00:00Z"
+      "summary": "Daily control dashboard refresh for 2026-06-07 pulled latest main, preserved operational JSON schemas, and recorded the current heartbeat activity and evidence log before publish verification.",
+      "updatedAt": "2026-06-07T10:12:00Z"
     },
     {
       "id": "PRJ-002",
