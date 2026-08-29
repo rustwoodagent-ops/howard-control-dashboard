@@ -13,6 +13,13 @@
   },
   "data": [
     {
+      "id": "LOG-10063",
+      "level": "INFO",
+      "source": "DashboardRefreshCron",
+      "message": "Daily 6pm refresh for 2026-08-29 pulled origin/main, confirmed the local branch retained two unpublished prior refresh commits, updated operational dashboard data, and queued publish verification.",
+      "timestamp": "2026-08-29T08:00:00Z"
+    },
+    {
       "id": "LOG-10062",
       "level": "INFO",
       "source": "DashboardRefreshCron",
